@@ -10,8 +10,6 @@ public class HelloWorld {
     @ResponseBody
     public String index () {
         int calculation = 1;
-        boolean yessir = calculation * 3 == 5;
         return "HIIII world342oi3jo1rd";
-        // Let's go boi
     }
 }
