@@ -9,7 +9,7 @@ public class HelloWorld {
     @GetMapping ("/")
     @ResponseBody
     public String index () {
-        int calculation = 1;
+        int calculation = 122;
         return "HIIII world342oi3jo1rd";
     }
 }
