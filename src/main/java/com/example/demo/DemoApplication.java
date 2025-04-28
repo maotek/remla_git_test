@@ -8,6 +8,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		// ADD some comments
+		// Add main
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
