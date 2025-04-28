@@ -7,11 +7,12 @@ import org. springframework .web.bind. annotation . ResponseBody ;
 @RequestMapping ("/")
 public class HelloWorld {
     // RECHTTOE RECHTAAN
+    // adding 6
     @GetMapping ("/")
     @ResponseBody
     public String index () {
         int calculation = 2;
         // new comment
-        return "FJORDEN";
+        return "do this do that 2";
     }
 }
