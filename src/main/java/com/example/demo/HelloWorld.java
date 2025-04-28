@@ -6,6 +6,7 @@ import org. springframework .web.bind. annotation . ResponseBody ;
 @Controller
 @RequestMapping ("/")
 public class HelloWorld {
+    // RECHTTOE RECHTAAN
     @GetMapping ("/")
     @ResponseBody
     public String index () {
